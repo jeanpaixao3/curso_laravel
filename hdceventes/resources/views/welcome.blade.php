@@ -6,13 +6,18 @@
 
         <title>Laravel</title>
 
-        <p>teste</p>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="/js/scripts.js"></script>
+
+
+    
     </head>
     <body>
         <h1>Olá Mundo</h1>
+        <img src="/img/prog-1.jpg" alt="imagem do topo">
         @if(10 > 5) 
             <p>A Condição é true</p>
-        @endif
+        @endif 
         
 
         <p>{{ $nome }}</p>
