@@ -6,7 +6,7 @@
 
         <title>Laravel</title>
 
-        
+        <p>teste</p>
     </head>
     <body>
         <h1>Olá Mundo</h1>
