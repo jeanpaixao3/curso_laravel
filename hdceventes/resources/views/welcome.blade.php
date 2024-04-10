@@ -12,11 +12,11 @@
         </form>
 
     </div>   
-    <div id="eventes-container" class="col-md-12">
+    <div id="events-container" class="col-md-12">
         <h2>Próximos Eventos</h2>
         <p>Veja os eventos dos proximos dias</p>
-        <div id="cards-container">
-       
+        <div id="cards-container" class="row">
+            
         </div>
 
     </div>
