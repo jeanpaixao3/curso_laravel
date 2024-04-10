@@ -8,6 +8,7 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * Criando tabela no banco com artisan
      */
     public function up(): void
     {

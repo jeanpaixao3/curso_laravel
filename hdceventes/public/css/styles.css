@@ -3,3 +3,7 @@ h1 {
     font-family: 'Roboto';
     font-size: 48px;
 }
+
+#navbar img {
+    width: 50px;
+}

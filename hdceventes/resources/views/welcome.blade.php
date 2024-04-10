@@ -4,36 +4,21 @@
 
 @section('content')
 
-        <h1>Olá Mundo</h1>
-        <img src="/img/prog-1.jpg" alt="imagem do topo">
-        @if(10 > 5) 
-            <p>A Condição é true</p>
-        @endif 
-        
+    <div id="search-container" classe="col-md-12">
+        <h1>Busque um evento</h1>
+        <form action="">
+            <input type="text" id="search" name="search" class="form-control" pleaceholder="Procurar...">
 
-        <p>{{ $nome }}</p>
+        </form>
 
-        @if($nome == "Pedro")
-        <p>O nome é Pedro</p>
-        @else
-        <p>o nome não é Pedro</p>
-        @endif
-
-        @for($i = 0; $i < count($arr); $i++)
-            <p>{{ $arr[$i] }} - {{ $i }}</p>
-            @if($i == 2)
-            <p>O i é 2</p>
-            @endif
-        @endfor
-
-        @foreach($nomes as $nome)
+    </div>   
+    <div id="eventes-container" class="col-md-12">
+        <h2>Próximos Eventos</h2>
+        <p>Veja os eventos dos proximos dias</p>
+        <div id="cards-container">
        
-        <p>{{ $nome }}</p>
-         @endforeach
+        </div>
 
-        
-
-        <!-- comentario html não pode comentar dados senciveis -->
-        {{--aqui é a forma de comentar no blade e não fica visivell no codigo html--}}
+    </div>
         
 @endsection
