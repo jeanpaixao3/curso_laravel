@@ -15,8 +15,8 @@
     <body>
         @yield('content')
         
-    <footer>
+        <footer>
         <p>HDC Eventes &copy; 2024 </p>
-    </footer>
+        </footer>
     </body>
 </html>
